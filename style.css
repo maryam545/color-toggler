@@ -40,7 +40,7 @@ label::after {
 }
 #switch:checked + label::after {
   background: var(--black-ball);
-  right: calc(100%-5px);
+  left: calc(100%-5px);
   transform: translateX(-100%);
 }
 #switch:checked + label {
